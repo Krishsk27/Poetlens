@@ -2,35 +2,26 @@
 
 Developer: Sureshkrishna B
 
-PoetLens is an intelligent, multi-modal AI system that analyzes an image, detects its dominant emotion, and generates a haiku-style poem reflecting that emotional tone.
-It combines DeepFace, CLIP, BLIP, and GPT-2 to interpret both facial and scene-level emotions and translate them into expressive poetry.
+PoetLens is an intelligent, multi-modal AI system that analyzes an image, detects its dominant emotion, and generates a haiku-style poem reflecting that emotional tone.It combines DeepFace, CLIP, BLIP, and GPT-2 to interpret both facial and scene-level emotions and translate them into expressive poetry.
 
 🌟 Key Features
 
 🧠 Multi-Modal Emotion Detection
-
 Detects facial emotions using DeepFace
-
 Identifies scene-based emotions using CLIP (OpenAI)
-
 Fuses results for a more context-aware emotional understanding
 
 🖋️ AI-Powered Poetry Generation
-
 Generates 3–4 line haiku-style poems using GPT-2 Medium
-
 Each poem reflects the emotion and visual tone of the image
 
 🖼️ Image Captioning
-
 Uses BLIP to describe the image context for better poetry coherence
 
 🎭 Emotion Spectrum Output
-
 Displays emotion probabilities across multiple categories (joyful, melancholic, mysterious, etc.)
 
 💾 Automatic Save
-
 Saves the generated output as a .txt file alongside the image
 
 🧰 Tech Stack
@@ -67,29 +58,17 @@ python poetlens.py
 Enter path to your image: C:\Users\YourName\Pictures\portrait.jpg
 
 🧠 How It Works
-
 Facial Emotion Detection
-
 If a face is present, DeepFace analyzes and maps it to a corresponding emotional tone (e.g., happy → joyful).
-
 Scene Emotion Detection
-
 CLIP compares the image against emotion prompts like “This image feels joyful.”
-
 It scores each emotion and selects the top three.
-
 Caption Generation
-
 BLIP creates a concise caption describing the visual scene.
-
 Poem Generation
-
 GPT-2 (fine-tuned for creative writing) generates a short poem reflecting the dominant emotion.
-
 Formatted Output
-
 Outputs emotion spectrum, poem, and caption beautifully in the console.
-
 Automatically saves a .txt file alongside the image.
 
 🧩 Sample Output
@@ -129,15 +108,10 @@ Role: AI Developer / Research Enthusiast
 Focus: Vision-Language Models, Emotion Recognition, and Generative AI
 
 🪄 Future Enhancements
-
 🌐 Web UI using Flask or Streamlit
-
 🗣️ Voice narration of generated poems
-
 🧩 Multilingual emotion-poem synthesis
-
 📊 Visualization dashboard for emotion spectra
-
 🪪 License
 
 This project is licensed under the MIT License.
