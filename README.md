@@ -44,7 +44,7 @@ NumPy	Numerical computations
 OpenCV	Image pre-processing and analysis
 ⚙️ Setup Instructions
 1️⃣ Clone the Repository
-git clone https://github.com/Sureshkrishna B/poetlens.git
+git clone https://github.com/Krishsk27/poetlens.git
 cd poetlens
 
 2️⃣ Create and Activate Virtual Environment
